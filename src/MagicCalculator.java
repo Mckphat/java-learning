@@ -31,6 +31,7 @@ public class MagicCalculator extends calculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//call all the methods from calculator
+		calculator calc= new MagicCalculator();
 		MagicCalculator magic = new MagicCalculator();
 		double num1, num2, result;
 		String operators;
@@ -53,6 +54,7 @@ public class MagicCalculator extends calculator {
 			return;
 		}
 		System.out.println("Result is: " + result);
+		calc.main(args);
 		
 			
 		
